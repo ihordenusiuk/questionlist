@@ -1,0 +1,8 @@
+.question__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}

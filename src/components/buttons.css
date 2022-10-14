@@ -1,0 +1,47 @@
+.buttons__wrap>button {
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+    font-size: 16px;
+    
+}
+
+.buttons__wrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.question_complete{
+    border: 1px solid green;
+}
+
+.question_complete:hover{
+    background-color: green;
+    border-color: white;
+    color: white;
+    transition: .5s;
+}
+
+.question_info, .question_ask {
+    border-color: yellowgreen;
+}
+
+.question_info:hover   , .question_ask:hover{
+    background-color: yellowgreen;
+    border-color: white;
+    color: white;
+    transition: .5s;
+}
+
+.buttons__wrap>a>button{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+    font-size: 16px;
+}
