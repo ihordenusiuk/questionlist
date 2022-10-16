@@ -194,8 +194,6 @@ const data = [
     }
 ]
 
-data.map((el)=>{
-    console.log(el.status);
-})
+
 
 export default data
